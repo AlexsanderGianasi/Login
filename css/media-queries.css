@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/* Telas
+...................
+Pequenas (600px e menores)
+celulares (de 600px a 768px)
+tablets (de 768px a 992px)
+desktops (de 992px a 1200px)
+grandes (1200px e maiores)
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) 
+{
+    body{
+        background-image: url('../imgs/galaxia.jpg');
+    }
+
+    main{
+        transition: all 0.3s ease-in-out;
+    }
+    
+    section#login {
+        width: 80vw;
+        max-width: 100%;
+        background-color: rgba(0, 0, 0, 0.705);
+        color: white;
+        box-shadow: -1px 10px 20px rgba(255, 255, 255, 0.123);
+        
+    }
+
+    #foto {
+        background-image: url('../imgs/estrela.jpg');
+        background-position: center;
+        border-radius: 0px 20px 20px 0px;
+        float: left;
+        width: 30vw;
+        height: 60vh;
+    }
+
+    #formulario {
+        float: right;
+        width: 45vw
+    }
+}
+
+@media screen and (min-width: 992px) 
+{
+    body{
+        background-image: url('../imgs/arvores.jpg');
+        background-position: center;
+    }
+
+    main{
+        transition: all 0.3s ease-in-out;
+    }
+    
+    section#login {
+        width: 70%;
+        max-width: 100%;
+        background-color: rgba(0, 0, 0, 0.377);
+        color: white;
+        box-shadow: -1px 10px 20px rgba(255, 255, 255, 0.123);
+        
+    }
+
+    #foto {
+        background-image: url('../imgs/passaro.jpg');
+        background-position: center;
+        border-radius: 0px 20px 20px 0px;
+        float: right;
+        width: 25vw;
+        height: 70vh;
+    }
+
+    #formulario {
+        float: left;
+        width: 30vw
+    }
+}
