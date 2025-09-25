@@ -17,6 +17,7 @@ grandes (1200px e maiores)
 
     main{
         transition: all 0.3s ease-in-out;
+        
     }
     
     section#login {
@@ -39,8 +40,11 @@ grandes (1200px e maiores)
 
     #formulario {
         float: right;
-        width: 45vw
+        width: 30vw;
+        margin-right: 9.5vw;
+        margin-top: 5vh;
     }
+
 }
 
 @media screen and (min-width: 992px) 
@@ -74,6 +78,9 @@ grandes (1200px e maiores)
 
     #formulario {
         float: left;
-        width: 30vw
+        width: 30vw;
+        margin-left: 7vw;
+        margin-top: 11vh;
     }
+
 }

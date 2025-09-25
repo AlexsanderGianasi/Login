@@ -46,3 +46,38 @@ section#login {
 #formulario {
     padding: 0px 0px 20px 15px;
 }
+
+#email{
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: 0px -3px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.349);
+}
+
+#senha{
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: 0px 0px 8px -3px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.349);
+}
+
+#bottom {
+    display: block;
+    width: 97%;
+    padding: 10px;
+    margin: 20px -3px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: white;
+    cursor: pointer;
+}
